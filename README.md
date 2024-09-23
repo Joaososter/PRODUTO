@@ -41,6 +41,7 @@ Visual Studio Code - IDE utilizada para o desenvolvimento
 📌 Versão
 
 Versão 1.0 - Implementação inicial com as classes Produto e Pessoa.
+Versão 1.1 - Ajustes para entrega 
 
 
 ✒️ Autores
