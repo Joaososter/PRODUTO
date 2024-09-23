@@ -1,54 +1,45 @@
-Sistema de 
+Projeto Produto
 
-Um parágrafo da descrição do projeto vai aqui
+Este projeto foi desenvolvido para representar um sistema de produtos e pessoas em Java. A classe Produto calcula o lucro a partir do preço de custo e preço de venda, enquanto a classe Pessoa gera automaticamente um email baseado no nome completo ao ser criada, com validação da data de nascimento.
 
 
 
 🚀 Começando
 
+Crie uma classe que representa um produto. A classe deve ter os atributos, nome, marca, preço de custo e preço de venda. Deve ter também um método que calcula e retorna o lucro.
+Crie objetos dessa classe e escreva na tela seus atributos e o valor do lucro.
+Crie uma classe para representar pessoas. O construtor da classe deve receber como parâmetros o nome completo, altura e a data de nascimento. Os objetos, logo após criados, devem criar automaticamente um email no formato nome.sobrenome@dominio.
 
-- Crie uma classe que representa um produto. A classe deve ter os atributos, nome, marca, preço de custo e preço de venda. Deve ter também um método que calcula e retorna o lucro.
-- Crie objetos dessa classe e escreva na tela seus atributos e o valor do lucro.
-- Crie uma classe para representar pessoas. O construtor da classe deve receber como parâmetros o nome completo, altura e a data de nascimento. Os objetos, logo após criados,    devem criar automaticamente um email no formato nome.sobrenome@dominio.
-- Desafio: A data de nascimento não pode ser posterior à data atual.
+Desafio: A data de nascimento não pode ser posterior à data atual.
 Para entrega desta atividade, crie um repositório remoto com o nome PRODUTO, preencha o README.MD conforme o modelo apresentado em aula.
 
 
+
 📋 Pré-requisitos
-
-
-- Java Development Kit (JDK) 8 ou superior
-- Eclipse IDE ou qualquer outra IDE Java (Exemplo: IntelliJ, VS Code com a extensão para Java)
-- Git para controle de versão
+- Java JDK (versão 11 ou superior)
+- Visual Studio Code para desenvolvimento e execução do código.
 
 
 🔧 Instalação
 
-- Clone este repositório em sua máquina:
-   ```bash
-   git clone https://github.com/seu-usuario/nome-do-repositorio.git
+1. Faça o download ou clone o repositório do projeto para seu ambiente local:
+   git clone https://github.com/Joaososter/PRODUTO.git
 
+2. Abra o projeto no VS code
+3. Compile e execute as classes no terminal ou usando a extensão de Java no VS Code.
 
-- Importe o projeto em sua IDE. No Eclipse, vá para:
-File -> Import -> Existing Projects into Workspace -> Selecione a pasta do projeto.
-
-- Compile e execute a aplicação.
 
 
 🛠️ Construído com
 
-- Vscode 
-
+Java - Linguagem de programação usada
+Visual Studio Code - IDE utilizada para o desenvolvimento
 
 
 📌 Versão
 
-Versão 1.0 caso seja atualizado manter a descrição inicial e inserir uma nova linha com descrição da atualização.
-Versão 1.1 - Refatoração data 09/09/24
-
+Versão 1.0 - Implementação inicial com as classes Produto e Pessoa.
 
 
 ✒️ Autores
-
-Joao Pedro Soster
-- Trabalho Inicial - Nome da atividade
+* João Soster - Trabalho Inicial - Programacao orientada a objetos 
